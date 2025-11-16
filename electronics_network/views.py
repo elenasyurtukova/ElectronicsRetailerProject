@@ -18,3 +18,4 @@ class ElectronicsNetworkViewSet(ModelViewSet):
     """Вьюсет для модели звена сети"""
     queryset = ElectronicsNetwork.objects.all()
     serializer_class = ElectronicsNetworkSerializer
+

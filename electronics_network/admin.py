@@ -20,7 +20,9 @@ class SupplierAdmin(admin.ModelAdmin):
 @admin.register(ElectronicsNetwork)
 class ElectronicsNetworkAdmin(admin.ModelAdmin):
     list_display = ("name", "contacts_email", "contacts_country", "contacts_city", "contacts_street",
-                    "contacts_house_number", "supplier", "level", "products", "debt_to_supplier", "created_at")
+                    "contacts_house_number", "supplier_link", "level", "get_products", "debt_to_supplier", "created_at")
     list_filter = ("contacts_city", )
     search_fields = ("name", )
 
+    def get_products(self, instance):
+        return [product.name for product in instance.products.all()]

@@ -1,4 +1,6 @@
 from django.db import models
+from django.urls import reverse
+from django.utils.html import format_html
 
 
 class Product(models.Model):
@@ -10,11 +12,11 @@ class Product(models.Model):
 
     def __str__(self):
         """Функция строкового представления товара"""
-        return f"{self.name}: модель - {self.model_number}, дата выпуска: {self.release_date}"
+        return f"{self.name}: модель - {self.model}, дата выпуска: {self.release_date}"
 
     class Meta:
-        verbose_name = "Товар"
-        verbose_name_plural = "Поставщики"
+        verbose_name = "Продукт"
+        verbose_name_plural = "Продукты"
 
 
 class Supplier(models.Model):
@@ -72,3 +74,21 @@ class ElectronicsNetwork(models.Model):
     class Meta:
         verbose_name = "Звено сети"
         verbose_name_plural = "Звенья сети"
+
+    def save(self, *args, **kwargs):
+        """функция автоматического изменения задолженности у поставщика"""
+        if self.supplier:
+            self.supplier.debt_to_supplier += self.debt_to_supplier
+            self.supplier.save()
+
+        super().save(*args, **kwargs) # вызываем метод save родительского класса
+
+    def supplier_link(self):
+        """функция создания поля ссылки на объект поставщика"""
+        if self.supplier:
+            url = reverse('admin:electronics_network_supplier_change',
+                          args=[self.supplier.id])
+            return format_html('<a href="{}">{}</a>', url, self.supplier.name)
+        return "Нет поставщика"
+
+    supplier_link.short_description = "Поставщик"
