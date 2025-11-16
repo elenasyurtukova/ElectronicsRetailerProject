@@ -19,6 +19,11 @@ class SupplierSerializer(ModelSerializer):
         model = Supplier
         fields = "__all__"
 
+    def update(self, instance, validated_data):
+        """функция, исключающая обновление поля задолженности у объекта поставщика"""
+        validated_data.pop("debt_to_supplier", None)
+        return super().update(instance, validated_data)
+
 
 class ElectronicsNetworkSerializer(ModelSerializer):
     """Класс сериализатора для модели звена сети"""
