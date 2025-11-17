@@ -51,7 +51,7 @@ class ElectronicsNetwork(models.Model):
         (2, 'Individual Enterpreneur'),
     ]
     name = models.CharField(max_length=255, verbose_name="название сети")
-    contacts_email = models.EmailField(unique=True, verbose_name="email")
+    contacts_email = models.EmailField(verbose_name="email")
     contacts_country = models.CharField(max_length=255, verbose_name="страна")
     contacts_city = models.CharField(max_length=255, verbose_name="город")
     contacts_street = models.CharField(max_length=255, verbose_name="улица")

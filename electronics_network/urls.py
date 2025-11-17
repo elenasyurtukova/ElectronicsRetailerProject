@@ -7,7 +7,7 @@ from electronics_network.views import (ProductViewSet, SupplierViewSet, Electron
 app_name = ElectronicsNetworkConfig.name
 
 router = SimpleRouter()
-router.register("products", ProductViewSet)
+router.register("products", ProductViewSet, basename='product')
 router.register("suppliers", SupplierViewSet)
 router.register("electronics-network", ElectronicsNetworkViewSet)
 
