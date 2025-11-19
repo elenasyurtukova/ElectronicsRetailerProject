@@ -1,0 +1,983 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-11-15T13:44:03.039Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "Электрический чайник Polaris PWK 1712CGLD WIFI IQ черный: модель - Polaris PWK 1712CGLD WIFI IQ, дата выпуска: 2021-01-01",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-11-15T14:01:19.255Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "Холодильник с морозильником LG GA-B509MQSL белый: модель - LG GA-B509MQSL, дата выпуска: 2020-09-01",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-11-15T14:13:47.312Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "Микроволновая печь Samsung MS23K3614AK черный: модель - Samsung MS23K3614AK, дата выпуска: 2024-07-15",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2025-11-15T14:23:01.302Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "5",
+      "object_repr": "Стиральная машина Indesit EWSD 51031 BK CIS белый: модель - Indesit EWSD 51031 BK CIS, дата выпуска: 2018-09-13",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2025-11-15T14:34:04.604Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "ООО «Инстамарт Сервис»",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2025-11-15T14:39:28.102Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Dongguan Taishen Electronics Co., Ltd.",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2025-11-15T14:52:17.393Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ООО \"ВАРИАНТ\"",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2025-11-15T15:01:12.328Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "DNS",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2025-11-16T07:21:04.426Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "my network 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2025-11-16T09:03:23.594Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Dongguan Taishen Electronics Co., Ltd.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0434\\u043e\\u043b\\u0436\\u0435\\u043d\\u043d\\u043e\\u0441\\u0442\\u044c \\u043f\\u0435\\u0440\\u0435\\u0434 \\u043f\\u043e\\u0441\\u0442\\u0430\\u0432\\u0449\\u0438\\u043a\\u043e\\u043c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2025-11-16T09:06:39.388Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "my network 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2025-11-16T10:38:01.958Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Dongguan Taishen Electronics Co., Ltd.",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2025-11-16T11:51:48.432Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "my network 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0434\\u043e\\u043b\\u0436\\u0435\\u043d\\u043d\\u043e\\u0441\\u0442\\u044c \\u043f\\u0435\\u0440\\u0435\\u0434 \\u043f\\u043e\\u0441\\u0442\\u0430\\u0432\\u0449\\u0438\\u043a\\u043e\\u043c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2025-11-16T12:00:28.580Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "my network 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0434\\u043e\\u043b\\u0436\\u0435\\u043d\\u043d\\u043e\\u0441\\u0442\\u044c \\u043f\\u0435\\u0440\\u0435\\u0434 \\u043f\\u043e\\u0441\\u0442\\u0430\\u0432\\u0449\\u0438\\u043a\\u043e\\u043c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2025-11-16T12:30:27.614Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "my network 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0434\\u043e\\u043b\\u0436\\u0435\\u043d\\u043d\\u043e\\u0441\\u0442\\u044c \\u043f\\u0435\\u0440\\u0435\\u0434 \\u043f\\u043e\\u0441\\u0442\\u0430\\u0432\\u0449\\u0438\\u043a\\u043e\\u043c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2025-11-16T12:31:42.347Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Dongguan Taishen Electronics Co., Ltd.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0434\\u043e\\u043b\\u0436\\u0435\\u043d\\u043d\\u043e\\u0441\\u0442\\u044c \\u043f\\u0435\\u0440\\u0435\\u0434 \\u043f\\u043e\\u0441\\u0442\\u0430\\u0432\\u0449\\u0438\\u043a\\u043e\\u043c\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2025-11-16T14:20:42.129Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "my network 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2025-11-16T14:22:31.929Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "my network 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2025-11-17T10:34:00.245Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "activetest1@test.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2025-11-17T10:35:12.769Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "activetest1@test.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2025-11-17T11:51:23.987Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "inactivetest2@test.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2025-11-17T13:03:56.602Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "activetest1@test.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2025-11-17T13:04:34.905Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "activetest1@test.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add Товар",
+      "content_type": 6,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change Товар",
+      "content_type": 6,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete Товар",
+      "content_type": 6,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view Товар",
+      "content_type": 6,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Поставщик",
+      "content_type": 7,
+      "codename": "add_supplier"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Поставщик",
+      "content_type": 7,
+      "codename": "change_supplier"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Поставщик",
+      "content_type": 7,
+      "codename": "delete_supplier"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Поставщик",
+      "content_type": 7,
+      "codename": "view_supplier"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Звено сети",
+      "content_type": 8,
+      "codename": "add_electronicsnetwork"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Звено сети",
+      "content_type": 8,
+      "codename": "change_electronicsnetwork"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Звено сети",
+      "content_type": 8,
+      "codename": "delete_electronicsnetwork"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Звено сети",
+      "content_type": 8,
+      "codename": "view_electronicsnetwork"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Сотрудник",
+      "content_type": 9,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Сотрудник",
+      "content_type": 9,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Сотрудник",
+      "content_type": 9,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Сотрудник",
+      "content_type": 9,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "electronics_network",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "electronics_network",
+      "model": "supplier"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "electronics_network",
+      "model": "electronicsnetwork"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ej3a4h5ephdqf20cxbk9ahcx3usr1cpu",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-bIRNSc8ZrPXuGgeQI8VJFXF3iJQC2jczb1MJ16WmtcucRlYXZdXpd8tIT2k74Ae2-6Rpass8Zr0r-qBd3yaW1_Vw_w4q9vqtHcWYOZbggnjnBqDIgRC9N9ZyZosAhokCGMKzmOgshOI9mgKDUFHvD-dZOCE:1vKGIr:jQnMv-t5EikHc25B04254B_wntlbq7jN_Z7AIYmrOCM",
+      "expire_date": "2025-11-29T13:26:57.680Z"
+    }
+  },
+  {
+    "model": "electronics_network.product",
+    "pk": 2,
+    "fields": {
+      "name": "Электрический чайник Polaris PWK 1712CGLD WIFI IQ черный",
+      "model": "Polaris PWK 1712CGLD WIFI IQ",
+      "description": "Электрочайник объем 1,5 л. с верхним заливом выполнен в черном корпусе и предусматривает наличие прозрачной колбы из термостойкого стекла, разноцветную подсветку. Есть возможность управления функциями со смартфона",
+      "release_date": "2021-01-01"
+    }
+  },
+  {
+    "model": "electronics_network.product",
+    "pk": 3,
+    "fields": {
+      "name": "Холодильник с морозильником LG GA-B509MQSL белый",
+      "model": "LG GA-B509MQSL",
+      "description": "Имеет инверторный компрессор, что обеспечивает отсутствие посторонних шумов во время работы устройства. Имеет нулевую камеру с циркуляцией воздушного потока.",
+      "release_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "electronics_network.product",
+    "pk": 4,
+    "fields": {
+      "name": "Микроволновая печь Samsung MS23K3614AK черный",
+      "model": "Samsung MS23K3614AK",
+      "description": "Отличается элегантным стилем и удобством в управлении. В наборе поставляются стеклянный поддон и вращающееся кольцо",
+      "release_date": "2024-07-15"
+    }
+  },
+  {
+    "model": "electronics_network.product",
+    "pk": 5,
+    "fields": {
+      "name": "Стиральная машина Indesit EWSD 51031 BK CIS белый",
+      "model": "Indesit EWSD 51031 BK CIS",
+      "description": "Загрузка белья до 5 кг. Максимальная скорость отжима 1000 об/мин. Имеет 16 программ и 6 доп.функций, включая дозагрузку белья и самодиагностику.",
+      "release_date": "2018-09-13"
+    }
+  },
+  {
+    "model": "electronics_network.product",
+    "pk": 6,
+    "fields": {
+      "name": "стиральная машина 1",
+      "model": "test1",
+      "description": null,
+      "release_date": "2025-06-01"
+    }
+  },
+  {
+    "model": "electronics_network.product",
+    "pk": 7,
+    "fields": {
+      "name": "стиральная машина_2",
+      "model": "test2",
+      "description": null,
+      "release_date": "2025-06-10"
+    }
+  },
+  {
+    "model": "electronics_network.supplier",
+    "pk": 1,
+    "fields": {
+      "name": "ООО «Инстамарт Сервис»",
+      "email": "b2b@kuper.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Садовническая",
+      "house_number": "9а",
+      "debt_to_supplier": "100000.00",
+      "created_at": "2025-11-15T14:34:04.520Z"
+    }
+  },
+  {
+    "model": "electronics_network.supplier",
+    "pk": 2,
+    "fields": {
+      "name": "Dongguan Taishen Electronics Co., Ltd.",
+      "email": "3002810439@qq.com",
+      "country": "Китай, China",
+      "city": "Baiguodong, Zhangmutou Town, Dongguan City",
+      "street": "No. 2 Dihao Street",
+      "house_number": "Building 2, Room 401",
+      "debt_to_supplier": "0.00",
+      "created_at": "2025-11-15T14:39:28.101Z"
+    }
+  },
+  {
+    "model": "electronics_network.supplier",
+    "pk": 3,
+    "fields": {
+      "name": "ООО \"ВАРИАНТ\"",
+      "email": "tt-variant@mail.ru",
+      "country": "Россия",
+      "city": "Владимир",
+      "street": "Посёлок Ртс",
+      "house_number": "34, офис 29",
+      "debt_to_supplier": "0.00",
+      "created_at": "2025-11-15T14:52:17.392Z"
+    }
+  },
+  {
+    "model": "electronics_network.supplier",
+    "pk": 4,
+    "fields": {
+      "name": "DNS",
+      "email": "Univermag.opt@dns-shop.ru",
+      "country": "Россия",
+      "city": "Москва",
+      "street": "Дмитровское, ш",
+      "house_number": "163А, корпус 1",
+      "debt_to_supplier": "500000.00",
+      "created_at": "2025-11-15T15:01:12.326Z"
+    }
+  },
+  {
+    "model": "electronics_network.supplier",
+    "pk": 5,
+    "fields": {
+      "name": "ИП ТЕСТ",
+      "email": "ip-test@mail.ru",
+      "country": "Россия",
+      "city": "Воронеж",
+      "street": "Тестовая",
+      "house_number": "1",
+      "debt_to_supplier": "0.00",
+      "created_at": "2025-11-17T13:01:44.578Z"
+    }
+  },
+  {
+    "model": "electronics_network.supplier",
+    "pk": 6,
+    "fields": {
+      "name": "поставщик1",
+      "email": "supplier1@test.com",
+      "country": "country1",
+      "city": "city1",
+      "street": "street1",
+      "house_number": "1",
+      "debt_to_supplier": "0.00",
+      "created_at": "2025-11-18T11:05:47.452Z"
+    }
+  },
+  {
+    "model": "electronics_network.electronicsnetwork",
+    "pk": 1,
+    "fields": {
+      "name": "my network 1",
+      "contacts_email": "test1@test.com",
+      "contacts_country": "Россия",
+      "contacts_city": "City1",
+      "contacts_street": "Street",
+      "contacts_house_number": "1",
+      "supplier": 2,
+      "level": 0,
+      "debt_to_supplier": "0.00",
+      "created_at": "2025-11-16T07:21:03.324Z",
+      "products": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "electronics_network.electronicsnetwork",
+    "pk": 2,
+    "fields": {
+      "name": "my network 2",
+      "contacts_email": "test2@test.com",
+      "contacts_country": "Россия",
+      "contacts_city": "City2",
+      "contacts_street": "Street",
+      "contacts_house_number": "2",
+      "supplier": 2,
+      "level": 0,
+      "debt_to_supplier": "0.00",
+      "created_at": "2025-11-16T09:06:39.380Z",
+      "products": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "electronics_network.electronicsnetwork",
+    "pk": 4,
+    "fields": {
+      "name": "my network 1",
+      "contacts_email": "test1@test.com",
+      "contacts_country": "Россия",
+      "contacts_city": "City1",
+      "contacts_street": "Street",
+      "contacts_house_number": "1",
+      "supplier": 1,
+      "level": 2,
+      "debt_to_supplier": "100000.00",
+      "created_at": "2025-11-16T14:20:42.120Z",
+      "products": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "electronics_network.electronicsnetwork",
+    "pk": 5,
+    "fields": {
+      "name": "my network 2",
+      "contacts_email": "test2@test.com",
+      "contacts_country": "Россия",
+      "contacts_city": "City2",
+      "contacts_street": "Street",
+      "contacts_house_number": "2",
+      "supplier": 4,
+      "level": 1,
+      "debt_to_supplier": "500000.00",
+      "created_at": "2025-11-16T14:22:31.828Z",
+      "products": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$tGS5chf2yNNKKNnpfIj65z$P8lb9V+0qK4s3t5pNbqqZV1T6j+Dkmt7DQ6y4P2v8+U=",
+      "last_login": "2025-11-15T13:26:57.609Z",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-11-15T13:25:52.039Z",
+      "email": "admin@example.com",
+      "phone": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$EYpUaaCBCvUzWBYKKRPgzk$VbyZoc7LsDO3TCewYpzQIsETWSGcNgY/E2WUlOeUE8k=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-11-17T10:25:50Z",
+      "email": "activetest1@test.com",
+      "phone": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$2J16fDbVcA843Wz9t5b7ly$QsnmK9wYmcjBsQmUCyui7sdhYPpBnyAEEBAS6BuNBjs=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2025-11-17T11:49:59Z",
+      "email": "inactivetest2@test.com",
+      "phone": null,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
