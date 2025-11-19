@@ -4,6 +4,7 @@ from django.db import models
 
 class User(AbstractUser):
     """класс для модели сотрудника"""
+
     username = None
     email = models.EmailField(unique=True, verbose_name="email")
     phone = models.CharField(
@@ -20,4 +21,3 @@ class User(AbstractUser):
     class Meta:
         verbose_name = "Сотрудник"
         verbose_name_plural = "Сотрудники"
-

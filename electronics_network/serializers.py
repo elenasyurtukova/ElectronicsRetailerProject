@@ -1,7 +1,6 @@
-from rest_framework import serializers
 from rest_framework.serializers import ModelSerializer
 
-from electronics_network.models import Product, Supplier, ElectronicsNetwork
+from electronics_network.models import ElectronicsNetwork, Product, Supplier
 
 
 class ProductSerializer(ModelSerializer):

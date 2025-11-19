@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from electronics_network.models import Product, Supplier, ElectronicsNetwork
+from electronics_network.models import ElectronicsNetwork, Product, Supplier
 
 
 @admin.register(Product)
@@ -12,18 +12,43 @@ class ProductAdmin(admin.ModelAdmin):
 
 @admin.register(Supplier)
 class SupplierAdmin(admin.ModelAdmin):
-    list_display = ("id", "name", "email", "country", "city", "street", "house_number", "debt_to_supplier", "created_at")
+    list_display = (
+        "id",
+        "name",
+        "email",
+        "country",
+        "city",
+        "street",
+        "house_number",
+        "debt_to_supplier",
+        "created_at",
+    )
     list_filter = ("name", "email", "country", "city")
-    search_fields = ("name", "email",)
+    search_fields = (
+        "name",
+        "email",
+    )
 
 
 @admin.register(ElectronicsNetwork)
 class ElectronicsNetworkAdmin(admin.ModelAdmin):
-    list_display = ("id", "name", "contacts_email", "contacts_country", "contacts_city", "contacts_street",
-                    "contacts_house_number", "supplier_link", "level", "get_products", "debt_to_supplier", "created_at")
-    list_filter = ("contacts_city", )
-    search_fields = ("name", )
-    actions = ['clear_debt']
+    list_display = (
+        "id",
+        "name",
+        "contacts_email",
+        "contacts_country",
+        "contacts_city",
+        "contacts_street",
+        "contacts_house_number",
+        "supplier_link",
+        "level",
+        "get_products",
+        "debt_to_supplier",
+        "created_at",
+    )
+    list_filter = ("contacts_city",)
+    search_fields = ("name",)
+    actions = ["clear_debt"]
 
     def get_products(self, instance):
         return [product.name for product in instance.products.all()]
@@ -38,4 +63,4 @@ class ElectronicsNetworkAdmin(admin.ModelAdmin):
         queryset.update(debt_to_supplier=0)
         self.message_user(request, "Задолженность успешно очищена.")
 
-    clear_debt.short_description="Очистить задолженность у выбранных объектов"
+    clear_debt.short_description = "Очистить задолженность у выбранных объектов"

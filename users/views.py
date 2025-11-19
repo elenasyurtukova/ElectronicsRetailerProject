@@ -9,6 +9,7 @@ from users.serializers import UserSerializer
 
 class UserCreateApiView(CreateAPIView):
     """Класс контроллера для создания пользователя"""
+
     serializer_class = UserSerializer
     queryset = User.objects.all()
     permission_classes = (
@@ -18,14 +19,13 @@ class UserCreateApiView(CreateAPIView):
     def perform_create(self, serializer):
         """Функция хеширования пароля пользователя для безопасности"""
         user = serializer.save(is_active=True)
-        user.set_password(
-            user.password
-        )
+        user.set_password(user.password)
         user.save()
 
 
 class UserListApiView(ListAPIView):
     """Класс контроллера для вывода списка пользователей"""
+
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = (IsAdminUser,)
@@ -33,6 +33,7 @@ class UserListApiView(ListAPIView):
 
 class UserRetrieveApiView(RetrieveAPIView):
     """Класс контроллера для вывода экземпляра пользователя"""
+
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = (IsAuthenticated,)
@@ -42,9 +43,9 @@ class UserRetrieveApiView(RetrieveAPIView):
         return User.objects.filter(pk=self.request.user.pk)
 
 
-
 class UserUpdateApiView(UpdateAPIView):
     """Класс контроллера для изменения экземпляра пользователя"""
+
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = (IsAuthenticated,)
@@ -56,7 +57,7 @@ class UserUpdateApiView(UpdateAPIView):
 
 class UserDestroyApiView(DestroyAPIView):
     """Класс контроллера для удаления экземпляра пользователя"""
+
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = (IsAdminUser,)
-

@@ -5,9 +5,12 @@ from django.utils.html import format_html
 
 class Product(models.Model):
     """Класс модели продукта"""
+
     name = models.CharField(max_length=255, verbose_name="название продукта")
     model = models.CharField(max_length=100, verbose_name="модель продукта")
-    description = models.TextField(blank=True, null=True, verbose_name="описание продукта")
+    description = models.TextField(
+        blank=True, null=True, verbose_name="описание продукта"
+    )
     release_date = models.DateField(verbose_name="дата выхода продукта на рынок")
 
     def __str__(self):
@@ -21,17 +24,20 @@ class Product(models.Model):
 
 class Supplier(models.Model):
     """Класс модели поставщика"""
+
     name = models.CharField(max_length=255, verbose_name="название поставщика")
     email = models.EmailField(unique=True, verbose_name="email поставщика")
     country = models.CharField(max_length=255, verbose_name="страна поставщика")
     city = models.CharField(max_length=255, verbose_name="город поставщика")
     street = models.CharField(max_length=255, verbose_name="улица поставщика")
-    house_number = models.CharField(max_length=255, verbose_name="номер дома поставщика")
+    house_number = models.CharField(
+        max_length=255, verbose_name="номер дома поставщика"
+    )
     debt_to_supplier = models.DecimalField(
         max_digits=12,
         decimal_places=2,
         default=0,
-        verbose_name="задолженность перед поставщиком"
+        verbose_name="задолженность перед поставщиком",
     )
     created_at = models.DateTimeField(auto_now_add=True)
 
@@ -43,12 +49,14 @@ class Supplier(models.Model):
         verbose_name = "Поставщик"
         verbose_name_plural = "Поставщики"
 
+
 class ElectronicsNetwork(models.Model):
     """Класс модели звена сети"""
+
     HIERARCHY_LEVELS = [
-        (0, 'Factory'),
-        (1, 'Retail Network'),
-        (2, 'Individual Enterpreneur'),
+        (0, "Factory"),
+        (1, "Retail Network"),
+        (2, "Individual Enterpreneur"),
     ]
     name = models.CharField(max_length=255, verbose_name="название сети")
     contacts_email = models.EmailField(verbose_name="email")
@@ -56,14 +64,18 @@ class ElectronicsNetwork(models.Model):
     contacts_city = models.CharField(max_length=255, verbose_name="город")
     contacts_street = models.CharField(max_length=255, verbose_name="улица")
     contacts_house_number = models.CharField(max_length=255, verbose_name="номер дома")
-    supplier = models.ForeignKey(Supplier, on_delete=models.CASCADE, verbose_name="поставщик")
-    level = models.IntegerField(choices=HIERARCHY_LEVELS, verbose_name="уровень иерархии сети")
+    supplier = models.ForeignKey(
+        Supplier, on_delete=models.CASCADE, verbose_name="поставщик"
+    )
+    level = models.IntegerField(
+        choices=HIERARCHY_LEVELS, verbose_name="уровень иерархии сети"
+    )
     products = models.ManyToManyField(Product)
     debt_to_supplier = models.DecimalField(
         max_digits=12,
         decimal_places=2,
         default=0,
-        verbose_name="задолженность перед поставщиком"
+        verbose_name="задолженность перед поставщиком",
     )
     created_at = models.DateTimeField(auto_now_add=True)
 
@@ -81,13 +93,14 @@ class ElectronicsNetwork(models.Model):
             self.supplier.debt_to_supplier += self.debt_to_supplier
             self.supplier.save()
 
-        super().save(*args, **kwargs) # вызываем метод save родительского класса
+        super().save(*args, **kwargs)  # вызываем метод save родительского класса
 
     def supplier_link(self):
         """функция создания поля ссылки на объект поставщика"""
         if self.supplier:
-            url = reverse('admin:electronics_network_supplier_change',
-                          args=[self.supplier.id])
+            url = reverse(
+                "admin:electronics_network_supplier_change", args=[self.supplier.id]
+            )
             return format_html('<a href="{}">{}</a>', url, self.supplier.name)
         return "Нет поставщика"
 
